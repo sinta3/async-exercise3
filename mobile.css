@@ -1,0 +1,26 @@
+@media screen and (max-width: 500px) {
+    * {
+        margin: 0;
+    }
+    #profil {
+        width: auto;
+        margin: auto;
+    }
+    #repo {
+        width: 300px;
+        display: flex;
+        align-content: space-between;
+    }
+
+    #crd {
+        margin-left: 60px;
+        margin-bottom: 30px;
+    }
+    #locate {
+        margin-left: -150px;
+    }
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+}

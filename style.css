@@ -1,19 +1,60 @@
 #container {
-    margin: auto;
-    width: 1500px;
+    width: auto;
     display: flex;
-    align-content: space-around;
+    font-family: "Poppins", sans-serif;
 }
 
 #profil {
-    width: 500px;
-    height: 800px;
+    width: 400px;
+    height: 600px;
+    background-color: rgb(253, 251, 251);
+    border: 1px solid rgb(99, 89, 89);
+    text-align: center;
+}
+
+#repo {
     background-color: rgb(41, 34, 34);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#follower {
+    margin-top: 100px;
+    color: rgb(41, 34, 34);
+    background-color: seashell;
+    text-decoration: none;
+}
+
+#following {
+    color: rgb(41, 34, 34);
+    background-color: seashell;
+    text-decoration: none;
 }
 
 img {
-    margin: auto;
-    margin-top: 200px 200px;
+    margin: 70px 50px;
     width: 100px;
     border-radius: 100%;
+    border: 1px solid black;
+}
+
+.data {
+    margin: auto;
+}
+
+.list-group {
+    margin: auto;
+    width: 200px;
+}
+
+.card {
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+#locate p {
+    margin-left: 200px;
+    color: seashell;
 }
