@@ -33,7 +33,7 @@ async function gitUser() {
         blog.innerHTML = `<a href="${results.blog}">My Blog </a>`;
         //twitter
         let twit = document.getElementById("twit");
-        twit.innerHTML = `<a href="${results.twitter_username}">My Twitter</a>`;
+        twit.innerHTML = `<a href="https://twitter.com/${results.twitter_username}">My Twitter</a>`;
         //bio
         let bio = document.getElementById("bio");
         bio.innerHTML = `${results.bio}`;
