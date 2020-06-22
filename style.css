@@ -1,0 +1,19 @@
+#container {
+    margin: auto;
+    width: 1500px;
+    display: flex;
+    align-content: space-around;
+}
+
+#profil {
+    width: 500px;
+    height: 800px;
+    background-color: rgb(41, 34, 34);
+}
+
+img {
+    margin: auto;
+    margin-top: 200px 200px;
+    width: 100px;
+    border-radius: 100%;
+}
